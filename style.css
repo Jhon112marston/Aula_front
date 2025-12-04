@@ -1,0 +1,51 @@
+body {
+    background-image:  url("Monochrome Bold Modern Portfolio Cover A4 Document.jpg");
+    background-size: cover  ;      
+    background-repeat: no-repeat; 
+    
+  }
+  
+
+
+
+
+#sobre{
+    color: green;
+    font-size: large;
+    width: 800px;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-size: large;
+}
+
+h2{
+    color:aliceblue ;
+    text-align: center;
+font-size: large;
+}
+
+
+p{
+    color: greenyellow ;
+font-size: large;
+;
+}
+
+.curso1{
+    color: aliceblue;
+    font-size: large;
+}
+
+
+.curso2{
+    color: aliceblue;
+    font-size: large;
+}
+
+.curso3{
+    color: aliceblue;
+    font-size: large;
+}
