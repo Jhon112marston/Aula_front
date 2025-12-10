@@ -6,24 +6,46 @@ body {
   
 
 
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #111111;
+    --text-color: #ffffff;
+  }
+  
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+  }
+  
+
+ .header{
+    color: #111111;
+ }
+  
 
 
 #historia{
-    color: black;
+    color: rgb(233, 8, 8);
     font-size: x-large;
 
    text-align: center;
 }
 
 h1{
-    color: black;
+    color: rgb(240, 9, 9);
     text-align: center;
     font-size: xx-large;
     text-align: center;
+    
 }
 
 h2{
-    color:black ;
+    color:red ;
     text-align: center;
 font-size: x-large;
 text-align: center;
@@ -31,28 +53,57 @@ text-align: center;
 
 
 p{
-    color: black ;
+    color: red ;
 font-size: x-large;
 text-align: center
 ;
 }
 
 .curso1{
-    color: black;
+    color: red;
     font-size: x-large;
     text-align: center;
 }
 
 
 .curso2{
-    color: black;
+    color: red;
     font-size: x-large;
     text-align: center;
     
 }
 
 .curso3{
-    color: black;
+    color: red;
     font-size: x-large;
     text-align: center;
+}
+
+.footer{
+
+    text-align: end;
+    color: green;
+    
+}
+
+
+/* Personalização da fonte e das cores */
+
+
+.social-links a {
+    color: #aaa; 
+    font-size: 22px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+.social-links a[aria-label="LinkedIn"]:hover {
+    color: #0A66C2;
+}
+
+.social-links a[aria-label="GitHub"]:hover {
+    color: #fff;
 }
