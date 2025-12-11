@@ -1,109 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-image: url(../images/1.jpg) ;      
-    background-repeat: no-repeat; 
-    
-  }
-  
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
 
 
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #111111;
-  }
-  
-  [data-theme="dark"] {
-    --bg-color: #111111;
-    --text-color: #ffffff;
-  }
-  
-  body {
-    background: var(--bg-color);
-    color: var(--text-color);
+.bloco {
+    height: 100vh;              
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+}
+
+
+#bloco1 {
+    background-image: url("../images/bloco1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#bloco2 {
+    background-image: url("../images/bloco2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* botões */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
     transition: 0.3s;
-  }
-  
-
- .header{
-    color: #111111;
- }
-  
-
-
-#historia{
-    color: rgb(233, 8, 8);
-    font-size: x-large;
-
-   text-align: center;
 }
 
-h1{
-    color: rgb(240, 9, 9);
-    text-align: center;
-    font-size: xx-large;
-    text-align: center;
-    
+button:hover {
+    background: #005fcc;
 }
 
-h2{
-    color:red ;
-    text-align: center;
-font-size: x-large;
-text-align: center;
-}
-
-
-p{
-    color: red ;
-font-size: x-large;
-text-align: center
-;
-}
-
-.curso1{
-    color: red;
+/* textos */
+#historia, h1, h2, p, .curso1, .curso2, .curso3 {
+    color: black;
     font-size: x-large;
     text-align: center;
 }
 
 
-.curso2{
-    color: red;
-    font-size: x-large;
+footer {
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
     text-align: center;
-    
-}
-
-.curso3{
-    color: red;
-    font-size: x-large;
-    text-align: center;
-}
-
-.footer{
-
-    text-align: end;
-    color: green;
-    
-}
-
-
-/* Personalização da fonte e das cores */
-
-
-.social-links a {
-    color: #aaa; 
-    font-size: 22px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.social-links a:hover {
-    transform: scale(1.2);
-}
-
-.social-links a[aria-label="LinkedIn"]:hover {
-    color: #0A66C2;
-}
-
-.social-links a[aria-label="GitHub"]:hover {
-    color: #fff;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-top: 0;
 }

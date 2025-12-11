@@ -1,46 +1,64 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfólio</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+
+<!-- sessão do bloco 1 -->
+<main>
+
+    <section id="bloco1" class="bloco">      
+
+        <header>
+            <!-- título e subtitulo -->
+            <h1>Meu portfólio</h1>
+            <h2>Me chamo Davi da Matta dos Santos</h2>
+        </header>
+
+        <!-- informações -->
+        <section id="historia">
+            <p>
+                Sou um desenvolvedor Front-end apaixonado por tecnologia e construção de interfaces intuitivas e eficientes.
+                Atualmente, estou cursando Ciência de Dados, aprendendo a mexer em linguagens de programação como
+                JavaScript, HTML e CSS. Busco constantemente evoluir minhas habilidades, unir design e funcionalidade
+                e participar de projetos que gerem impacto real por meio da tecnologia.
+            </p>
+        </section>
+
+        <p>Aqui estão alguns cursos que realizei dentro da área de tecnologia e linguagens de programação:</p>
+
+        <div class="curso1">Operador de Sistemas Computacionais em Rede</div>
+        <div class="curso2">Programador Back-end</div>
+        <div class="curso3">Programador Front-end</div>
+
+        <p>Links para o Email, LinkedIn e GitHub</p>    
+
+        <button onclick="location.href='#bloco2'">Ir para o Bloco 2</button>
+    </section>
+
+        <!-- sessão do bloco 2 -->
+    <section id="bloco2" class="bloco">
+        <h1>Minhas Redes</h1>
+
+        <div class="social">
+            <a href="https://github.com/Jhon12marston" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/davi-da-matta-762253359/" target="_blank">LinkedIn</a>
+            <a href="mailto:davidamattados@gmail.com">E-mail</a>
+        </div>
+
+        <button class="btn-voltar" onclick="location.href='#bloco1'">Voltar ao Bloco 1</button>
+    </section>    
     
-    
-        
-<header>
+</main>
+<footer>
+    <p>Obrigado pela visita!</p>
+</footer>
 
-    <button id="toggle-theme">🌙 Alterar tema</button>
-
-    <!-- Informações sobre o desenvolvedor -->
-
-<h1>Meu portfolio</h1>
-<h2> Me chamo Davi da Matta dos Santos</h2>
-</header>
-    <main>
-<section id="historia"> Sou um desenvolvedor Front-end apaixonado por tecnologia e construção de interfaces intuitivas e eficientes. Atualmente, estou cursando Ciência de Dados, o que tem ampliado minha visão sobre análise de informações, tomada de decisão orientada por dados e desenvolvimento de soluções inteligentes. Busco constantemente evoluir minhas habilidades, unir design e funcionalidade e participar de projetos que gerem impacto real por meio da tecnologia. </section>
-
-<p > Aqui estão alguns cursos que realizei dentro da area de tecnologia e linguagens de programação</p>
-
-
-
-<div class="curso1"> Operador de Sistemas Computacionais em Rede </div>
-<div class="curso2"> Programador back-end</div>
-<div class="curso3"> Programador front end</div>
-
-
-
-<a href="pages/sobre.html">Ir para a página Sobre as informações de contato</a>
-
-<script src="JS/script.js"></script>
-
-
-    </main>
-
-
-   
 </body>
 </html>

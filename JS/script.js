@@ -1,20 +1,14 @@
 
 
-// Modo escuro do portfólio
-
-const botao = document.getElementById('toggle-theme');
-const body = document.body;
-
-
-const temaSalvo = localStorage.getItem('tema');
-if (temaSalvo) body.setAttribute('data-theme', temaSalvo);
+document.getElementById("btnScroll").addEventListener("click", function() {
+  document.getElementById("bloco2").scrollIntoView({
+      behavior: "smooth"
+  });
+});
 
 
-botao.addEventListener('click', () => {
-  const temaAtual = body.getAttribute('data-theme');
-
-  const novoTema = temaAtual === "dark" ? "light" : "dark";
-  body.setAttribute('data-theme', novoTema);
-
-  localStorage.setItem('tema', novoTema);
+document.getElementById("btnVoltar").addEventListener("click", function() {
+  document.getElementById("bloco1").scrollIntoView({
+      behavior: "smooth"
+  });
 });
